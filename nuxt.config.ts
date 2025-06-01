@@ -25,5 +25,9 @@ export default defineNuxtConfig({
       routes: ['/sitemap.xml']
     }
   },
-  ssr: false  
+  ssr: false,
+  app: {
+    baseURL: '/plumber-website/',
+    buildAssetsDir: 'assets/'
+  }
 })
