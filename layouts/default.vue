@@ -115,8 +115,7 @@ const ctaMessages = [
     "Time to Call the Experts?",
     "Let's Solve Your Plumbing Problem",
     "Professional Help is Just a Call Away",
-    "Having Plumbing Troubles?",
-    "Ready to Experience the Difference?"
+    "Having Plumbing Troubles?"    
 ]
 
 // Pick a random message
