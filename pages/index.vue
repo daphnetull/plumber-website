@@ -27,8 +27,8 @@
     <section class="py-16 bg-white">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
-          <h2 class="text-3xl font-bold text-gray-900 mb-4">Our Services</h2>
-          <p class="text-lg text-gray-600">Complete plumbing solutions for all your needs</p>
+          <h2 class="text-3xl font-bold text-gray-900 mb-4">My Services</h2>
+          <p class="text-lg text-gray-600">Complete plumbing solutions for all your needs. Residential, coommercial, or industrial - I got you!</p>
         </div>
         
         <div class="grid md:grid-cols-3 gap-8">
@@ -75,7 +75,7 @@
     <!-- About Section -->
     <section class="py-16 bg-gray-50">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="grid md:grid-cols-2 gap-12 items-start">
           <div>
             <h2 class="text-3xl font-bold text-gray-900 mb-6">Why Choose {{ business.name }}?</h2>
             <div class="space-y-4">
@@ -121,9 +121,9 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-            <p class="text-gray-500">[Placeholder for plumber photo or work images]</p>
+          </div>          
+          <div class="rounded-lg h-96 flex items-start justify-center">
+            <img src="/images/main-image.jpg" alt="An outdoor hose spigot connected to a brick wall" class="w-full h-full object-cover">
           </div>
         </div>
       </div>

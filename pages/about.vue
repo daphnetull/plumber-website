@@ -12,28 +12,26 @@
     <!-- Main About Section -->
     <section class="py-16 bg-white">
         <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid md:grid-cols-2 gap-12 items-center">
+            <div class="grid md:grid-cols-2 gap-12 items-start">
                 <div>
                     <h2 class="text-3xl font-bold text-gray-900 mb-6">Your Trusted Local Plumber</h2>
                     <div class="space-y-4 text-gray-600">
                         <p class="text-lg">
-                            With over 15 years of experience serving the Indianapolis area, {{ business.name }} has
-                            built a reputation for reliable, professional plumbing services that homeowners and
-                            businesses can count on.
+                            I've been in the plumbing business since 1998, and I've held my Master Plumber License since 2008.                             
                         </p>
                         <p>
-                            We understand that plumbing problems can be stressful and disruptive to your daily life.
-                            That's why we're committed to providing fast, efficient solutions with transparent pricing
+                            I understand that plumbing problems can be stressful and disruptive to your daily life.
+                            That's why I'm committed to providing fast, efficient solutions with transparent pricing
                             and exceptional customer service.
                         </p>
                         <p>
-                            From simple repairs to complex installations, our goal is to solve your plumbing issues
+                            From simple repairs to complex installations, my goal is to solve your plumbing issues
                             right the first time, so you can get back to what matters most.
-                        </p>
+                        </p>                        
                     </div>
-                </div>
-                <div class="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-                    <p class="text-gray-500">[Professional photo placeholder]</p>
+                </div>                
+                <div class="rounded-lg h-160 flex items-start justify-center">
+                    <img src="/images/antonio.jpg" alt="Professional photograph of Anontio the business owner" class="w-full h-full object-cover">
                 </div>
             </div>
         </div>
@@ -69,7 +67,7 @@
                         </svg>
                     </div>
                     <h3 class="text-lg font-semibold text-gray-900 mb-2">Insured</h3>
-                    <p class="text-gray-600">Fully insured for your protection</p>
+                    <p class="text-gray-600">Fully insured and bonded for your protection</p>
                 </div>
 
                 <div class="text-center p-6 bg-white rounded-lg shadow-sm">
@@ -79,7 +77,7 @@
                                 d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                         </svg>
                     </div>
-                    <h3 class="text-lg font-semibold text-gray-900 mb-2">15+ Years</h3>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">25+ Years</h3>
                     <p class="text-gray-600">Extensive plumbing experience</p>
                 </div>
 
@@ -207,10 +205,11 @@
                         <span class="text-yellow-400 text-xl">★★★★★</span>
                     </div>
                     <p class="text-gray-600 mb-4">
-                        "Professional, prompt, and fairly priced. Fixed our water heater issue quickly and explained
-                        everything clearly. Highly recommend!"
+                        "We purchased a water heater and had it delivered, but needed help installing it. 
+                        Antonio offered to install it at a fair price, and even offered to get it downstairs for us. The installation was smooth and professional, and we've had it working flawlessly for the last 8 months. 
+                        He's also a super nice and down-to-earth person. You can tell he really cares about his customers and his work. Would highly recommend!"
                     </p>
-                    <p class="font-semibold text-gray-900">- Sarah M., Carmel</p>
+                    <p class="font-semibold text-gray-900">- Daphne T., Indianapolis</p>
                 </div>
 
                 <div class="bg-gray-50 rounded-lg p-6">
