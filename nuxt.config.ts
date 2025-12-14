@@ -27,7 +27,10 @@ export default defineNuxtConfig({
   },
   ssr: false,
   app: {
-    baseURL: '/plumber-website/',
-    buildAssetsDir: 'assets/'
+    baseURL: '/plumber-website/', // Replace 'plumber-website' with your actual repo name
+    buildAssetsDir: 'assets/',
+    head: {
+      link: []
+    }
   }
 })

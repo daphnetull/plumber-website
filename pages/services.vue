@@ -269,28 +269,32 @@ const modules = [Navigation, Pagination, Autoplay]
 const appConfig = useAppConfig()
 const business = appConfig.business
 
+// Get base URL for images
+const config = useRuntimeConfig()
+const baseURL = config.app.baseURL || '/'
+
 
 // Slide content
 const slides = [
   {
     title: 'Professional Drain Cleaning',
     description: 'Expert drain and sewer line cleaning services to keep your plumbing flowing smoothly',
-    image: '/images/drain-cleaning.jpg'
+    image: `${baseURL}/images/drain-cleaning.jpg`
   },
   {
     title: 'Water Heater Installation & Repair',
     description: 'Complete water heater services including installation, repair, and maintenance',
-    image: '/images/water-heater.jpg'
+    image: `${baseURL}/images/water-heater.jpg`
   },
   {
     title: 'Preventive Maintenance',
     description: 'Regular maintenance to prevent problems and extend the life of your plumbing system',
-    image: '/images/preventative-maintenance.jpg'
+    image: `${baseURL}/images/preventative-maintenance.jpg`
   },
   {
     title: 'General Plumbing Services',
     description: 'From fixtures to pipes, we handle all your residential plumbing needs',
-    image: '/images/general-plumbing.jpg'
+    image: `${baseURL}/images/general-plumbing.jpg`
   }
 ]
 
